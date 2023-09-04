@@ -22,7 +22,7 @@ body,html{
     
 }
 
-a:hover ~ .cursor{
-    background-color: crimson;
-    
+ a:hover ~ .cursor {
+    transform: scale(3);
+ 
 }
