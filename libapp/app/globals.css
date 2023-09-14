@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover{
+   color: whitesmoke;
+   
+   padding: 3px;
+   border-radius: 17%;
+   background-color: gray;
+   transition: all ease 0.3s;
+   
+}
+.logo{
+  border-radius: 40%;
+  
+}
+.logo:hover{
+  transform: scale(1.2);
+  transition: all ease 0.3s;
+}
+.about{
+  background-color: aqua;
+  display: flex;
+  justify-content: end;
+}
